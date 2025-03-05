@@ -1,0 +1,16 @@
+to build and start container: sudo docker compose up --build
+
+to completely remove: sudo docker compose down -v
+
+
+
+Using postman to access user functions:
+http://localhost:5000/api/users/register
+http://localhost:5000/api/users/login
+
+with JSON formatted:
+{
+  "username": "john smith",
+  "email": "test@test.com",
+  "password": "johnsmith"
+}
